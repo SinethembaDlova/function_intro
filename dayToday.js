@@ -3,7 +3,10 @@ var dayToday = function()
   var isDate = new Date();
   var day = isDate.getDay();
 
-  console.log(day);
+  return day;
 };
 
 dayToday();
+
+var d = dayToday();
+console.log(d);

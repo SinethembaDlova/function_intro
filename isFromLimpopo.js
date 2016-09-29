@@ -1,7 +1,10 @@
 var isFromLimpopo = function(fromLimp)
 {
   var isFrom = fromLimp.endsWith("L");
-  console.log(isFrom);
+  return isFrom;
 };
 
 isFromLimpopo("DRT 122 L");
+
+var Limp = isFromLimpopo("DRT 122 L");
+console.log(Limp);
